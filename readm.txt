@@ -1,2 +1,0 @@
-В этом проекте использовались такие технологии как:
-Bootstrap v5.3.1, CSS, HTML, PHP, Javascript
