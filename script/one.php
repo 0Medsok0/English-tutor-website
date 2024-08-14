@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($firstname) || empty($phone) || empty($email)) { 
     echo "Please fill in all the fields";
   } else {
-    $to = "smykov.iw@yandex.ru"; // емайл получателя данных из формы
+    $to = "your-email"; // емайл получателя данных из формы
 
     $tema = "Форма  PHP"; // тема полученного емайла
 
