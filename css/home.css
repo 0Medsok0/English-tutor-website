@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin-left: 30%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+input {
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.recomendation {
+  margin-left: 5%;
+}
+.rec {
+  padding-left: 3%;
+}
+.rec img {
+  margin-left: 40%;
+}
+
+.picture-header {
+  position: absolute;
+}
+.text-overlay {
+  position: relative;
+}
+.price {
+  padding-top: 36%;
+}
+
+
