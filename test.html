@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      .quiz-container {
+        max-width: 40%;
+        max-height: 50%;
+        padding-top: 5%;
+        margin: 0 auto;
+        border-style: solid;
+        border-color: #000;
+        border-width: 2px;
+        background-color: #0000ff;
+      }
+      .question {
+        margin-bottom: 20px;
+        background-color: #f5f5f5;
+        padding-left: 5px;
+      }
+      .options {
+        margin-bottom: 10px;
+      }
+      .option {
+        margin-bottom: 5px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+      }
+      .submit-button {
+        margin-top: 10px;
+        margin-left: 45%;
+        font-size: large;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f5f5f5;
+        color: #0000ff;
+        border-style: solid;
+        border-color: black;
+      }
+    </style>
+
+    <div>
+      <p class="text lead text-center fs-3">
+        Дорогие друзья,<br />
+        Как вы думаете, вы хорошо владеете английским языком? Пройдите этот
+        короткий тест, чтобы узнать! Этот тест предназначен для оценки ваших
+        навыков владения английским языком и даст вам точную оценку вашего
+        текущего уровня. С помощью этой информации вы можете определить области,
+        которые нуждаются в улучшении, и создать индивидуальный учебный план для
+        достижения ваших целей в изучении языка. Тест состоит из 25 вопросов с
+        множественным выбором и займет примерно 15-20 минут. Все, что вам нужно,
+        - это базовое понимание английской грамматики и словарного запаса для
+        успешного прохождения теста. Мы надеемся, что вам понравится проходить
+        этот тест и вы узнаете больше о своих знаниях английского языка!<br />
+        Удачи!
+      </p>
+    </div>
+    <div class="quiz-container">
+      <!-- Repeat the above code for the remaining questions (Question 2-5) -->
+      <button class="submit-button" onclick="submitAnswer()">Submit</button>
+      <p id="score"></p>
+    </div>
+
+    <script src="js/test_inglish.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
